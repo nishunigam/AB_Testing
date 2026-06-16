@@ -196,36 +196,37 @@ c) Familywise Error Rate The FER only controls the probability that any metric s
 d) Control False Discovery Rate In this case, we allow a high probability of false positive, as long as there isn’t too many. Note that FDR should be used when the number of metrics is very large, usually hundreds.
 
 ### Step 5. It’s All about Decisions
+
 Up until now, we’ve already calculated the statistical significance and confidence interval with all the cautions. Are we good to bring up the recommendations?
 
-Things to consider when making decisions
-Is it statistically and practically significant?
-Do you understand the change?
-For multiple metrics, do they move in the same direction?
-What has the change done to the user experience?
-Is it worth it
+## Things to consider when making decisions
+
+*Is it statistically and practically significant?
++Do you understand the change?
+-For multiple metrics, do they move in the same direction?
+*What has the change done to the user experience?
++Is it worth it
 
 
 ## Problems may occur when launching
-
 Always do a ramp-up when lauching a change, that’s what we do for all the launches at Google.
 
-Real word data is nasty, so do the test. Even if the test is statistically significant initially, the effect can be flattened when you ramp up the change (i.e. gradually increase the percentage of users to the new version). This is mainly because:
+Real word data is nasty, so do the test. Even if the test is statistically significant initially, the **effect can be flattened when you ramp up the change** (i.e. gradually increase the percentage of users to the new version). This is mainly because:
 
-Event or seasonal driven impactWe could holdback (When the changes are not applied to a small number of users, we should see the reverse effect in this group), cohort analysis, or pre/post period A/A experiment to test the issue.
-**The results may not be repeatable:** Sometimes our changes will only be effective to 30% of users or have a positive effect on 30% users but negatively affect 70% users. We could do a ramp-up launch to test out this issue.
-Business effectsWe may also find companies call off the launching when the engineering, or opportunity cost is relatively high, or when there’s customer support or sales issue.
+  - **Event or seasonal driven impact:** We could holdback (When the changes are not applied to a small number of users, we should see the reverse effect in this group), **cohort analysis, or pre/post period A/A experiment** to test the issue.
+  - **The results may not be repeatable:** Sometimes our changes will only be effective to 30% of users or have a positive effect on 30% users but negatively affect 70% users. We could do a ramp-up launch to test out this issue.
+  - **Business effects:** We may also find companies call off the launching when the engineering, or opportunity cost is relatively high, or when there’s customer support or sales issue.
 
 ## A Final Note: Ethical Issues
 
-**1. Risks**
+### Risks
 The risks the participants are exposed to should not exceed the minimal risk, i.e., the probability and magnitude of harm a participant would encounter in normal daily life. If the risk exceeds minimal risk, informed consent is required.
 
-**2. Benefits**
+### Benefits
 What benefits might the outcome of the study be?
 
-**3. Choice**
+### Choice
 What other choice does the participant have? For example, when testing out new drugs for cancer, the other choice most participants have is death, so that the risk for participants is quite high.
 
-**4. Privacy (Data Sensitivity)**
+### Privacy (Data Sensitivity)
 What expectations of privacy and confidentiality do participants have? Note that the timestamps are considered personally identifiable since they could contain enough information to link the data to a person. This means that any sensitive data, such as health conditions with timestamps, should be considered sensitive.
