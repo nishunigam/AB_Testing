@@ -63,7 +63,8 @@ After we set up our goals in step 1, we need to choose the correct metrics to co
 
 **3. Expand to More Detailed Metrics** First of all, we could list the basic **customer funnel** and expand it with more details to better understand the data we need to collect for the metrics. In this case, we need to capture the number of unique users that moves from "exploring the site" to "create an account."
 
-![Customer Funnel of the Online Course Example](<img width="643" height="383" alt="image" src="https://github.com/user-attachments/assets/e2acd49b-423e-4433-b062-7930a14300c4" />)
+<img width="643" height="383" alt="image" src="https://github.com/user-attachments/assets/e2acd49b-423e-4433-b062-7930a14300c4" />
+<em>Customer Funnel of the Online Course Example</em>
 
 Then we determine how to **summarise the metrics.** In general, there are 4 ways to summarise the metrics:
 
@@ -108,7 +109,8 @@ Note that limiting the population to a cohort may need a longer time to collect 
 
 The questions we need to answer regarding the size include: How many tests do we need to get statistically significant results? How do we reduce the number of tests to save time? These are the 4 parameters that will affect the sample size:
 
-![Parameters that Affects the Sample Size](<img width="557" height="394" alt="image" src="https://github.com/user-attachments/assets/18223115-4629-4ec9-a8ec-d00debff2d6a" />)
+<img width="557" height="394" alt="image" src="https://github.com/user-attachments/assets/18223115-4629-4ec9-a8ec-d00debff2d6a" />
+<em>Parameters that Affects the Sample Size</em>
 
 And the specific numbers can be calculated [using this calculator](https://www.evanmiller.org/ab-testing/sample-size.html).
 
@@ -168,7 +170,7 @@ Since the lower boundary of the confidence interval is higher than the minimum p
 If the practical significance level (dₘᵢₙ) falls on a different part of the confidence interval, we could reference this graph:
 
 <img width="1024" height="904" alt="image" src="https://github.com/user-attachments/assets/8356db53-8c33-4db5-ba59-a1f86515fd8d" />
-![Confidence Interval VS Practical Significance Level
+<em>Confidence Interval VS Practical Significance Level.</em>
 
 **Sign Test:** Suppose when we segment the data into different days, 9 out of 14 days the control group has a higher click-through probability.
 
@@ -181,7 +183,6 @@ We should break the data down into subgroups to see which part has more effect. 
 **Simpson’s Paradox** is a statistical phenomenon that a trend appears in the combined data, but disappears or reverses when the data are partitioned into several different groups.
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6d5499ba-7f25-4390-a70c-a8ece2caaf84" />
-<em>"Simpsons Paradox Animation" by Pace~svwiki licensed under CC BY-SA 4.0</em>
 
 #### Multiple Metrics
 One key difference between single and multiple metrics is that:
