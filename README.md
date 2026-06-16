@@ -55,7 +55,7 @@ However, there are also cases it is Not So Useful:
 
 ### Step 2. Choose the Right Metrics
 
-After we set up our goals in step 1, we need to choose the correct metrics to convert the goals to concrete measurements such as click-through probability. It can be **single or multiple** metrics depending on the business needs. If you chose multiple metrics, one way is to combine them with weights to form an **overall evaluation criterion (OEC).** The steps mentioned in this course are:
+After we set up our goals in step 1, we need to choose the correct metrics to convert the goals to concrete measurements such as click-through probability. It can be **single or multiple** metrics depending on the business needs. If you chose multiple metrics, one way is to combine them with weights to form an **overall evaluation criterion (OEC).** The steps are:
 
 **1. Invariant (Sanity) Check** Before choosing the measurement metrics that will be affected by the variants, we need to make sure invariants are controlled. For example, do you have the same number of users across the two groups **(population sizing)?** Do they have **comparable distributions** across countries, languages? Ideally, we should also assign the two groups the same **number of trials.**
 
